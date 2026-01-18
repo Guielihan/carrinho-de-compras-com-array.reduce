@@ -107,12 +107,15 @@ function renderCartItems() {
 function updateCartSummary() {
     const { subtotal, discount, total } = calculateTotals();
     const itemCount = getTotalItemCount();
+    const discountSection = document.getElementById('discountSection');
 
     document.getElementById('itemCount').textContent = itemCount;
     document.getElementById('subtotal').textContent = formatCurrency(subtotal);
     document.getElementById('discount').textContent = formatCurrency(discount);
     document.getElementById('total').textContent = formatCurrency(total);
     document.getElementById('checkoutBtn').disabled = cart.length === 0;
+    
+    discountSection.style.display = cart.length > 0 ? 'block' : 'none';
 }
 
 function updateCart() {
