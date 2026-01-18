@@ -4,18 +4,18 @@
 
 ## 📋 Sumário
 
-- [Visão Geral](#visão-geral)
-- [Funcionalidades](#funcionalidades)
-- [Tecnologias](#tecnologias)
-- [Requisitos](#requisitos)
-- [Como Usar](#como-usar)
-- [Estrutura do Projeto](#estrutura-do-projeto)
-- [Array.reduce() no Projeto](#arrayreduce-no-projeto)
-- [Capturas de Tela](#capturas-de-tela)
-- [Desenvolvedor](#desenvolvedor)
-- [Agradecimentos](#agradecimentos)
+- [Visão Geral](#-visão-geral)
+- [Funcionalidades](#-funcionalidades)
+- [Tecnologias](#-tecnologias)
+- [Requisitos](#-requisitos)
+- [Como Usar](#-como-usar)
+- [Estrutura do Projeto](#-estrutura-do-projeto)
+- [Array.reduce() no Projeto](#-arrayreduce-no-projeto)
+- [Capturas de Tela](#-capturas-de-tela)
+- [Desenvolvedor](#-desenvolvedor)
+- [Agradecimentos](#-agradecimentos-e-referências)
 
-## 👁️ Visão Geral
+<h2 id="-visão-geral">👁️ Visão Geral</h2>
 
 Este projeto é um carrinho de compras totalmente funcional desenvolvido em **HTML5, CSS3 e JavaScript vanilla**. O destaque principal é o uso extensivo do método `Array.reduce()` para todos os cálculos de subtotal, desconto e contagem de itens, demonstrando como programação funcional pode simplificar operações complexas.
 
@@ -28,7 +28,7 @@ Este projeto é um carrinho de compras totalmente funcional desenvolvido em **HT
 ⚡ **Performance otimizada** com código limpo e sem comentários desnecessários  
 🎨 **Design escuro moderno** com tema gradiente elegante  
 
-## ⚙️ Funcionalidades
+<h2 id="-funcionalidades">⚙️ Funcionalidades</h2>
 
 - ✅ Exibição de catálogo de 8 produtos com imagens
 - ✅ Adicionar produtos ao carrinho
@@ -42,7 +42,7 @@ Este projeto é um carrinho de compras totalmente funcional desenvolvido em **HT
 - ✅ Mensagem de confirmação personalizada ao finalizar compra
 - ✅ Carrinho vazio e validações
 
-## 🛠️ Tecnologias
+<h2 id="-tecnologias">🛠️ Tecnologias</h2>
 
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
@@ -54,7 +54,7 @@ Este projeto é um carrinho de compras totalmente funcional desenvolvido em **HT
 - **Array.reduce()** - Cálculos funcionais de dados
 - **DOM API** - Manipulação e renderização do HTML
 
-## 📋 Requisitos
+<h2 id="-requisitos">📋 Requisitos</h2>
 
 - Navegador moderno (Chrome, Firefox, Safari, Edge)
 - Nenhuma dependência externa necessária
@@ -66,7 +66,7 @@ Este projeto é um carrinho de compras totalmente funcional desenvolvido em **HT
 |--------|---------|--------|------|
 | ✅ Suportado | ✅ Suportado | ✅ Suportado | ✅ Suportado |
 
-## 🚀 Como Usar
+<h2 id="-como-usar">🚀 Como Usar</h2>
 
 ### 1. Clone o repositório
 
@@ -110,7 +110,7 @@ Acesse `http://localhost:8000` no seu navegador.
 4. Clique em "Finalizar Compra" para confirmar
 5. Seu carrinho será resetado após a confirmação
 
-## 📁 Estrutura do Projeto
+<h2 id="-estrutura-do-projeto">📁 Estrutura do Projeto</h2>
 
 ```
 carrinho-de-compras-com-array.reduce/
@@ -133,7 +133,7 @@ carrinho-de-compras-com-array.reduce/
 └── .gitignore            # Git ignore rules
 ```
 
-## 🔍 Array.reduce() no Projeto
+<h2 id="-arrayreduce-no-projeto">🔍 Array.reduce() no Projeto</h2>
 
 ### 1. Cálculo de Subtotal
 
@@ -166,7 +166,7 @@ function calculateDiscount(subtotal) {
 ```
 Aplica 10% de desconto sobre o subtotal.
 
-## 📸 Capturas de Tela
+<h2 id="-capturas-de-tela">📸 Capturas de Tela</h2>
 
 ### Preview do Projeto
 
@@ -179,7 +179,7 @@ Aplica 10% de desconto sobre o subtotal.
 ![Responsivo Mobile](./assets/screenshots/mobile-view.png)
 *Layout responsivo em dispositivos móveis*
 
-## 👨‍💻 Desenvolvedor
+<h2 id="-desenvolvedor">👨‍💻 Desenvolvedor</h2>
 
 **Guilherme Queiroz (Guielihan)**
 
@@ -195,7 +195,7 @@ Aplica 10% de desconto sobre o subtotal.
   </a>
 </div>
 
-## 🎓 Agradecimentos e Referências
+<h2 id="-agradecimentos-e-referências">🎓 Agradecimentos e Referências</h2>
 
 <div style="display: flex; gap: 10px; flex-wrap: wrap;">
   <a href="https://github.com/in100tiva">
