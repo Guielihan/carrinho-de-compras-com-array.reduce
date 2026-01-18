@@ -169,22 +169,21 @@ function handleCheckout() {
     const { subtotal, discount, total } = calculateTotals();
     const itemCount = getTotalItemCount();
 
-    const message = `
-╔════════════════════════════════════════╗
-║        COMPRA REALIZADA COM SUCESSO!  ║
-╚════════════════════════════════════════╝
+    const message = `Compra concluída ✨
 
-📊 RESUMO DA COMPRA:
-─────────────────────────────────────────
-• Quantidade de itens: ${itemCount}
-• Subtotal: ${formatCurrency(subtotal)}
-• Desconto (${DISCOUNT_PERCENTAGE}%): ${formatCurrency(discount)}
-─────────────────────────────────────────
-💰 TOTAL: ${formatCurrency(total)}
+Seu pagamento foi confirmado e o pedido está finalizado com sucesso.
 
-✅ Obrigado por sua compra!
-Desenvolvido com ❤️ pela GoDevs
-    `;
+Resumo da compra:
+• Itens: ${itemCount}  
+• Subtotal: ${formatCurrency(subtotal)}  
+• Desconto (${DISCOUNT_PERCENTAGE}%): ${formatCurrency(discount)}  
+
+💰 Total: ${formatCurrency(total)}
+
+Obrigado por confiar na GoDevs.  
+Seguimos juntos 🚀
+
+© GoDevs 2026`;
 
     alert(message);
     cart = [];
