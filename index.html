@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrinho - GoDevs</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="header-content">
+                <h1>🛒 Carrinho de Compras</h1>
+                <p class="subtitle">Desafio GoDevs - Array.reduce() em Ação</p>
+            </div>
+        </header>
+
+        <main class="main-content">
+            <!-- Seção de Produtos -->
+            <section class="products-section">
+                <div class="section-header">
+                    <h2>Catálogo de Produtos</h2>
+                    <span class="badge" id="productCount">0</span>
+                </div>
+                <div class="products-grid" id="productsGrid">
+                    <!-- Produtos serão inseridos aqui via JavaScript -->
+                </div>
+            </section>
+
+            <!-- Seção do Carrinho -->
+            <aside class="cart-section">
+                <div class="section-header">
+                    <h2>Resumo do Carrinho</h2>
+                    <span class="cart-badge" id="itemCount">0</span>
+                </div>
+
+                <div class="cart-items-container">
+                    <div id="cartItems" class="cart-items">
+                        <div class="empty-state">
+                            <p class="empty-icon">🛒</p>
+                            <p class="empty-text">Seu carrinho está vazio</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Resumo de Valores -->
+                <div class="cart-summary">
+                    <div class="summary-item">
+                        <span class="summary-label">Subtotal:</span>
+                        <span class="summary-value" id="subtotal">R$ 0,00</span>
+                    </div>
+
+                    <div class="discount-section">
+                        <div class="summary-item">
+                            <span class="summary-label">Desconto (10%):</span>
+                            <span class="summary-value discount" id="discount">R$ 0,00</span>
+                        </div>
+                    </div>
+
+                    <div class="summary-item total">
+                        <span class="summary-label">Total:</span>
+                        <span class="summary-value total-value" id="total">R$ 0,00</span>
+                    </div>
+
+                    <button id="checkoutBtn" class="checkout-btn" disabled>
+                        Finalizar Compra
+                    </button>
+                </div>
+            </aside>
+        </main>
+
+        <footer class="footer">
+            <p>&copy; GoDevs 2026 | Desenvolvido com <span class="heart">❤️</span></p>
+        </footer>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
